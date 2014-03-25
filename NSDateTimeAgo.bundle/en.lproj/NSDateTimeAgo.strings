@@ -71,22 +71,22 @@
 "This year" = "This year";
 
 /* Short strings - seconds */
-"%ds" = "%ds"
+"%ds" = "%ds";
 
 /* Short strings - minutes */
-"%dm" = "%dm"
+"%dm" = "%dm";
 
 /* Short strings - hours */
-"%dh" = "%dh"
+"%dh" = "%dh";
 
 /* Short strings - days */
-"%dd" = "%dd"
+"%dd" = "%dd";
 
-/* Short strings - days */
-"%dw" = "%dw"
+/* Short strings - weeks */
+"%dw" = "%dw";
 
 /* Short strings - months */
-"%dmo" = "%dmo"
+"%dmo" = "%dmo";
 
 /* Short strings - years */
-"%dyr" = "%dyr"
+"%dyr" = "%dyr";

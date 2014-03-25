@@ -71,23 +71,23 @@
 "This year" = "This year";
 
 /* Short strings - seconds */
-"%ds" = "%d秒"
+"%ds" = "%d秒";
 
 /* Short strings - minutes */
-"%dm" = "%d分"
+"%dm" = "%d分";
 
 /* Short strings - hours */
-"%dh" = "%d時"
+"%dh" = "%d時";
 
 /* Short strings - days */
-"%dd" = "%d日"
+"%dd" = "%d日";
 
 /* Short strings - weeks */
-"%dw" = "%d週"
+"%dw" = "%d週";
 
 /* Short strings - months */
-"%dmo" = "%d月"
+"%dmo" = "%d月";
 
 /* Short strings - year */
-"%dyr" = "%d年"
+"%dyr" = "%d年";
 
