@@ -332,7 +332,7 @@ NSLocalizedStringFromTableInBundle(key, @"NSDateTimeAgo", [NSBundle bundleWithPa
     return [formatter stringFromDate:self];
 }
 
-// Recommended limit: 60*60*24*365
+// Recommended limit: One month (60*60*24*30)
 - (NSString *) timeAgoSimpleWithLimit:(NSTimeInterval)limit
 {
     return [self timeAgoSimpleWithLimit:limit
