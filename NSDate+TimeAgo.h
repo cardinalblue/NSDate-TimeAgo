@@ -5,6 +5,8 @@
 - (NSString *) timeAgoWithLimit:(NSTimeInterval)limit dateFormat:(NSDateFormatterStyle)dFormatter andTimeFormat:(NSDateFormatterStyle)tFormatter;
 - (NSString *) timeAgoWithLimit:(NSTimeInterval)limit dateFormatter:(NSDateFormatter *)formatter;
 
+// timeAgoSimple, but switches to showing just date after limit
+- (NSString *) timeAgoSimpleWithLimit:(NSTimeInterval)limit;
 
 // this method only returns "{value} {unit} ago" strings and no "yesterday"/"last month" strings
 - (NSString *)dateTimeAgo;

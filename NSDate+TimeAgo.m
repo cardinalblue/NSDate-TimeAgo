@@ -332,6 +332,23 @@ NSLocalizedStringFromTableInBundle(key, @"NSDateTimeAgo", [NSBundle bundleWithPa
     return [formatter stringFromDate:self];
 }
 
+// Recommended limit: 60*60*24*365
+- (NSString *) timeAgoSimpleWithLimit:(NSTimeInterval)limit
+{
+    return [self timeAgoSimpleWithLimit:limit
+                             dateFormat:NSDateFormatterShortStyle
+                          andTimeFormat:NSDateFormatterNoStyle];
+}
+
+- (NSString *) timeAgoSimpleWithLimit:(NSTimeInterval)limit dateFormat:(NSDateFormatterStyle)dFormatter andTimeFormat:(NSDateFormatterStyle)tFormatter
+{
+    if (fabs([self timeIntervalSinceDate:[NSDate date]]) <= limit)
+        return [self timeAgoSimple];
+    
+    return [NSDateFormatter localizedStringFromDate:self
+                                          dateStyle:dFormatter
+                                          timeStyle:tFormatter];
+}
 // Helper functions
 
 #pragma clang diagnostic push
