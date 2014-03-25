@@ -69,3 +69,24 @@
 
 /* No comment provided by engineer. */
 "This year" = "This year";
+
+/* Short strings - seconds */
+"%ds" = "%ds"
+
+/* Short strings - minutes */
+"%dm" = "%dm"
+
+/* Short strings - hours */
+"%dh" = "%dh"
+
+/* Short strings - days */
+"%dd" = "%dd"
+
+/* Short strings - days */
+"%dw" = "%dw"
+
+/* Short strings - months */
+"%dmo" = "%dmo"
+
+/* Short strings - years */
+"%dyr" = "%dyr"
