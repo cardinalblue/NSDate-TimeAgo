@@ -77,10 +77,10 @@
 "%dm" = "%d分";
 
 /* Short strings - hours */
-"%dh" = "%d時";
+"%dh" = "%d小時";
 
 /* Short strings - days */
-"%dd" = "%d日";
+"%dd" = "%d天";
 
 /* Short strings - weeks */
 "%dw" = "%d週";

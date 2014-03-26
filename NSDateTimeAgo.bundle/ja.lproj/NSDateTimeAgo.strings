@@ -69,3 +69,24 @@
 
 /* No comment provided by engineer. */
 "This year" = "今年";
+
+/* Short strings - seconds */
+"%ds" = "%d秒";
+
+/* Short strings - minutes */
+"%dm" = "%d分";
+
+/* Short strings - hours */
+"%dh" = "%d時間";
+
+/* Short strings - days */
+"%dd" = "%d日";
+
+/* Short strings - weeks */
+"%dw" = "%d週";
+
+/* Short strings - months */
+"%dmo" = "%d月";
+
+/* Short strings - year */
+"%dyr" = "%d年";
