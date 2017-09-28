@@ -1,5 +1,14 @@
 #import "NSDate+TimeAgo.h"
 
+// =============================================================
+// Dummy class for getting NSBundle
+@interface NSDateTimeAgo : NSObject
+@end
+
+@implementation NSDateTimeAgo
+@end
+// =============================================================
+
 @interface NSDate()
 -(NSString *)getLocaleFormatUnderscoresWithValue:(double)value;
 @end
@@ -8,7 +17,7 @@
 
 #ifndef NSDateTimeAgoLocalizedStrings
 #define NSDateTimeAgoLocalizedStrings(key) \
-NSLocalizedStringFromTableInBundle(key, @"NSDateTimeAgo", [NSBundle bundleWithPath:[[[NSBundle mainBundle] resourcePath] stringByAppendingPathComponent:@"NSDateTimeAgo.bundle"]], nil)
+NSLocalizedStringFromTableInBundle(key, @"NSDateTimeAgo", [NSBundle bundleWithPath:[[[NSBundle bundleForClass:[NSDateTimeAgo class]] resourcePath] stringByAppendingPathComponent:@"NSDateTimeAgo.bundle"]], nil)
 #endif
 
 // shows 1 or two letter abbreviation for units.
